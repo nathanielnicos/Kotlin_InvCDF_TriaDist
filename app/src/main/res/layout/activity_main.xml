@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_rand"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/random_number" />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/tv_u"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/u" />
+
+            <EditText
+                android:id="@+id/et_u"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:layout_marginTop="24dp"
+                android:id="@+id/tv_tria"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/triangular_distribution" />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/tv_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a" />
+
+            <EditText
+                android:id="@+id/et_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/tv_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/m" />
+
+            <EditText
+                android:id="@+id/et_m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <TextView
+                android:id="@+id/tv_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b" />
+
+            <EditText
+                android:id="@+id/et_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+
+            <Button
+                android:layout_marginTop="24dp"
+                android:id="@+id/btn_calc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calculate" />
+
+            <TextView
+                android:layout_marginTop="24dp"
+                android:id="@+id/tv_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

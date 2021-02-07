@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Inverse CDF of Triangular Distribution</string>
+    <string name="u">u</string>
+    <string name="a">a</string>
+    <string name="m">m</string>
+    <string name="b">b</string>
+    <string name="triangular_distribution">Triangular Distribution</string>
+    <string name="random_number">Random Number [0, 1]</string>
+    <string name="calculate">Calculate</string>
+</resources>
